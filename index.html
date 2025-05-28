@@ -5,78 +5,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Nateshwar Kala Kendra</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Lora&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <header>
-    <div class="container nav-container">
+    <div class="nav">
       <h1>Nateshwar Kala Kendra</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#guru">Guru</a></li>
-          <li><a href="#nateshwar">Lord Nateshwar</a></li>
-          <li><a href="#classes">Classes</a></li>
-          <li><a href="#reviews">Reviews</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
   </header>
 
   <section class="hero">
-    <div class="overlay">
-      <div class="hero-content">
-        <h2>Grace. Rhythm. Devotion.</h2>
-        <p>Immerse in the timeless art of Bharatanatyam at Nateshwar Kala Kendra</p>
-      </div>
+    <div class="hero-overlay">
+      <h2>Grace. Rhythm. Devotion.</h2>
+      <p>Bharatanatyam training steeped in tradition and soul</p>
     </div>
   </section>
 
   <section id="about" class="section">
-    <div class="container">
-      <h2>About the Academy</h2>
-      <p>Nateshwar Kala Kendra is a dedicated space for the traditional dance form of Bharatanatyam. Founded with the vision to preserve classical Indian heritage, the academy nurtures students of all levels in an environment of discipline, spirituality, and grace.</p>
-    </div>
-  </section>
-
-  <section id="guru" class="section alt">
-    <div class="container">
-      <h2>Our Founder & Guru</h2>
-      <p>Our principal teacher, Guru [Name Placeholder], has over two decades of experience in Bharatanatyam and has trained under some of the most respected names in the field. Her teaching style blends classical rigor with a compassionate, creative approach that helps each student grow in artistry and confidence.</p>
-    </div>
-  </section>
-
-  <section id="nateshwar" class="section">
-    <div class="container centered">
-      <h2>Lord Nateshwar</h2>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg/800px-Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg" alt="Lord Nataraja" class="nataraja-img">
-      <blockquote>“He who dances creates, sustains, and dissolves the cosmos in rhythmic grace.”</blockquote>
+    <div class="container about-container">
+      <div class="about-text">
+        <h2>About the Academy</h2>
+        <p>Nateshwar Kala Kendra is a sanctuary for learning Bharatanatyam. Our mission is to preserve and nurture the timeless heritage of classical Indian dance with discipline and devotion. Founded by Guru <strong>[Your Guru’s Name]</strong>, a dedicated teacher and performer, the academy blends tradition with contemporary pedagogy.</p>
+        <p class="quote">“Like Lord Nataraja’s cosmic dance, each movement reflects creation, rhythm, and transcendence.”</p>
+      </div>
+      <div class="nataraja-img">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg/400px-Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg" alt="Lord Nataraja">
+      </div>
     </div>
   </section>
 
   <section id="classes" class="section alt">
     <div class="container">
-      <h2>Bharatanatyam Classes</h2>
-      <ul>
-        <li>Foundation Training (Ages 6+)</li>
-        <li>Intermediate & Advanced Batches</li>
-        <li>Arangetram Guidance</li>
-        <li>Workshops & Choreography Sessions</li>
-      </ul>
+      <h2>Classes Offered</h2>
+      <div class="class-grid">
+        <div class="class-card">
+          <h3>Beginner</h3>
+          <p>Introduction to Bharatanatyam, basic adavus, and rhythm.</p>
+        </div>
+        <div class="class-card">
+          <h3>Intermediate</h3>
+          <p>Varnams, jatiswarams, and body coordination with expressions.</p>
+        </div>
+        <div class="class-card">
+          <h3>Advanced</h3>
+          <p>Arangetram preparation, choreography, and performance training.</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <section id="reviews" class="section">
     <div class="container">
-      <h2>Student Testimonials</h2>
-      <div class="testimonial">
-        <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Guru’s teachings instilled discipline and joy in every step.”</p>
-        <h4>– Student A</h4>
+      <h2>Student Reviews</h2>
+      <div class="review">
+        <p>“The way we are taught with discipline and love brings out our inner dancer. Thank you for the guidance!”</p>
+        <span>– Student A</span>
       </div>
-      <div class="testimonial">
-        <p>“Praesent eu sapien vitae lorem egestas volutpat. The academy gave me more than just dance — it gave me confidence.”</p>
-        <h4>– Student B</h4>
+      <div class="review">
+        <p>“Each class feels like a journey — spiritual, graceful, and empowering. Highly recommended.”</p>
+        <span>– Student B</span>
       </div>
     </div>
   </section>
@@ -88,17 +82,23 @@
         <input type="text" placeholder="Your Name" required />
         <input type="email" placeholder="Your Email" required />
         <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
+        <button type="submit">Send</button>
       </form>
     </div>
   </section>
 
   <footer>
     <div class="container">
-      <p>&copy; 2025 Nateshwar Kala Kendra. All rights reserved.</p>
+      <p>&copy; 2025 Nateshwar Kala Kendra | Designed with devotion</p>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script>
+    document.getElementById("contact-form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      alert("Message sent successfully!");
+      this.reset();
+    });
+  </script>
 </body>
 </html>
