@@ -1,44 +1,62 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #fff;
+  font-family: 'Georgia', serif;
+  line-height: 1.7;
+  background-color: #fffaf4;
   color: #333;
 }
 
 header {
-  background-color: #111;
+  background-color: #2e1d0e;
   color: white;
   padding: 1rem 0;
 }
 
-header .container {
+.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
 }
 
-header h1 {
-  margin: 0;
-}
-
 nav ul {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 nav a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .hero {
-  background: url('https://images.unsplash.com/photo-1512149653403-8f296d76cd99?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+  background: url('https://images.unsplash.com/photo-1614181106025-5d793f0eb3ae?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+  height: 100vh;
   color: white;
-  padding: 5rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
   text-align: center;
+  padding: 2rem;
+}
+
+.hero-content h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .section {
@@ -46,12 +64,46 @@ nav a {
 }
 
 .section.alt {
-  background-color: #f4f4f4;
+  background-color: #fdf3e6;
 }
 
 .container {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.centered {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+
+blockquote {
+  font-style: italic;
+  margin-top: 1rem;
+  color: #6a4f3f;
+}
+
+.nataraja-img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.testimonial {
+  background: #fff;
+  padding: 1.5rem;
+  border-left: 5px solid #c69c6d;
+  margin-bottom: 1rem;
 }
 
 form {
@@ -68,7 +120,7 @@ input, textarea {
 }
 
 button {
-  background-color: #111;
+  background-color: #2e1d0e;
   color: white;
   padding: 0.8rem;
   border: none;
@@ -77,7 +129,7 @@ button {
 }
 
 footer {
-  background-color: #111;
+  background-color: #2e1d0e;
   color: white;
   text-align: center;
   padding: 1rem;
